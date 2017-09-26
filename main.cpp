@@ -86,7 +86,7 @@ void findAllPrimes(int n)
  */
 void initEnergySupply2Star(double theta0, string dir){
 	stringstream ss;
-	ss <<dir<< "star_energy_theta_table.txt";
+	ss <<dir<< "/star_energy_theta_table.txt";
 	fstream f (ss.str().c_str(), std::ios::out | std::ios::app);
 	
 	w[0]->energy = Pmax;
@@ -108,7 +108,7 @@ void initEnergySupply2Star(double theta0, string dir){
  */
 void initEnergySupply2PUT(double theta0, string dir){
 	stringstream ss;
-	ss <<dir<< "throughput_energy_theta_table.txt";
+	ss <<dir<< "/throughput_energy_theta_table.txt";
 	fstream f (ss.str().c_str(), std::ios::out | std::ios::app);
 	
 	P[0] = Pmax;
