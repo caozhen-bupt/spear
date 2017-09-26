@@ -1,0 +1,3 @@
+life Cycle = 402528
+life Cycle = 2330360
+life Cycle = 1862973
